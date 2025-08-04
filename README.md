@@ -18,7 +18,7 @@ Este aplicativo requre o .NET Runtime 6.0 (recomendo o 6.0.36). Clique em alguma
 <br>
 O WebView2Launcher também inclui os arquivos nativos do WebView2 (`WebView2Loader.dll`) para suportar o modo "fixed version".  
 __MAS note que:__
-- Ele usa o modo de distribuição __Evergreen__, que precisa do __Microsoft Edge instalado__ ou o WebView2 nos argumentos.
+- Ele usa o modo de distribuição __Evergreen__, que precisa do __WebView2 Runtime__ (acho que o Microsoft Edge já vem com isto) ou o WebView2 Runtime nos argumentos (--runtime ...).
 
 
 Nenhuma instalação adicional do .NET é necessária.
